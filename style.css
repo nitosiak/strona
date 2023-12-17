@@ -1,33 +1,15 @@
-.red{
-    color: rgb(42, 114, 54);}
-.lol{
-   color: blue;
-   font-style: normal;
-}
-.warning{
-    color: red;
-    font: normal;
-    font-size: 60mm;
-}
-.warn{
-    font-size: 20mm;    
-}
 h3:hover{
     animation-name: test;
     animation-duration:4s;
-    animation: test 4 text;
-    
+    animation: test 4 text;    
 }
-#my-button {
-  animation-name: test;
-  animation-duration: 4s;
-}
-
 @keyframes test {
     from {
       font-size: large;
+      background-color: red;
     }
     to {
       font-size: xx-large;
+      background-color: yellow;
     }
   }
