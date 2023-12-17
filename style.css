@@ -18,7 +18,16 @@ h3:hover{
     animation: test 4 text;
     
 }
-@keyframes test {
-    from {font-size: large;}
-    to {font-size: xx-large;}
+#my-button {
+  animation-name: test;
+  animation-duration: 4s;
 }
+
+@keyframes test {
+    from {
+      font-size: large;
+    }
+    to {
+      font-size: xx-large;
+    }
+  }
